@@ -1,0 +1,13 @@
+﻿Algorithm,P_self,P_self_significant,mean_bias,P_vs_MoE,P_vs_MoE_significant,mean_abs_err,err_ratio_vs_MoE
+msMamba,4.207e-01,no,-0.01455,7.743e-61,yes,0.2852,5.15
+Standard PINN,8.815e-01,no,-0.00246,2.030e-63,yes,0.2646,4.77
+CG-PINN,5.018e-01,no,+0.01136,2.282e-65,yes,0.2726,4.92
+Causal PINN,4.026e-01,no,+0.01393,3.548e-66,yes,0.2691,4.86
+Temporal-MS,1.054e-01,no,-0.03771,9.559e-43,yes,0.3113,5.62
+TX-Spatial-MS,3.321e-01,no,+0.01664,1.644e-59,yes,0.2714,4.90
+HMformer,3.345e-01,no,-0.01726,4.102e-57,yes,0.2773,5.00
+SiGMA-G,4.344e-01,no,-0.01393,8.476e-59,yes,0.2801,5.05
+Fourier-Spatial,6.321e-01,no,-0.00895,2.287e-62,yes,0.2958,5.34
+R3R4-AT,9.855e-03,yes,-0.05982,5.224e-40,yes,0.3034,5.47
+Spatial-MS,8.147e-01,no,-0.00383,3.197e-65,yes,0.2647,4.78
+AT-Spatial-MS-MoE,3.054e-06,yes,-0.01945,--,--,0.0554,1.00
