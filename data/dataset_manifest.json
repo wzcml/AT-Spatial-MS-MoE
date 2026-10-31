@@ -1,0 +1,87 @@
+{
+  "protocol": {
+    "N_TRAIN": 400,
+    "N_TEST": 100,
+    "train_seed": "61000 + scale_index",
+    "test_seed": "60000 + scale_index",
+    "scales": [
+      "minute",
+      "hour",
+      "day",
+      "month",
+      "year"
+    ]
+  },
+  "columns": [
+    "x",
+    "t_rel",
+    "t_abs",
+    "T",
+    "H",
+    "N",
+    "P",
+    "K",
+    "Mg",
+    "Ca",
+    "S",
+    "Fe",
+    "Mn",
+    "Zn",
+    "Cu",
+    "B",
+    "phi",
+    "u"
+  ],
+  "files": {
+    "train_scale0_minute.csv": {
+      "rows": 400,
+      "cols": 19,
+      "sha256_16": "69a4e273bc7a9752"
+    },
+    "test_scale0_minute.csv": {
+      "rows": 100,
+      "cols": 19,
+      "sha256_16": "fc1f8a60931eb29a"
+    },
+    "train_scale1_hour.csv": {
+      "rows": 400,
+      "cols": 19,
+      "sha256_16": "6b73631866b18d43"
+    },
+    "test_scale1_hour.csv": {
+      "rows": 100,
+      "cols": 19,
+      "sha256_16": "69b54ece47128c60"
+    },
+    "train_scale2_day.csv": {
+      "rows": 400,
+      "cols": 19,
+      "sha256_16": "05093fd35bcb57f7"
+    },
+    "test_scale2_day.csv": {
+      "rows": 100,
+      "cols": 19,
+      "sha256_16": "f5c7e8c33b17cdaa"
+    },
+    "train_scale3_month.csv": {
+      "rows": 400,
+      "cols": 19,
+      "sha256_16": "47f45994e905be0f"
+    },
+    "test_scale3_month.csv": {
+      "rows": 100,
+      "cols": 19,
+      "sha256_16": "6bf68bf9c1ffe578"
+    },
+    "train_scale4_year.csv": {
+      "rows": 400,
+      "cols": 19,
+      "sha256_16": "8750618f927cd9fe"
+    },
+    "test_scale4_year.csv": {
+      "rows": 100,
+      "cols": 19,
+      "sha256_16": "3c92fa327aea766b"
+    }
+  }
+}
